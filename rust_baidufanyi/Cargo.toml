@@ -1,0 +1,14 @@
+[package]
+name = "rust_baidufanyi"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust-crypto = "0.2.36"
+rand = "0.8.5"
+reqwest = "0.11.26"
+tokio = { version = "1.36.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] } 
+serde_json = { version = "1.0" }
